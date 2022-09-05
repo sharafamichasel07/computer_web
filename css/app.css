@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+.hero-bg{
+    display: flex;
+    
+    color: white;
+}
+.side1 {
+    background-color: red;
+    height: 100px;
+    min-height: 100vh;
+    width: 50%;
+}
+.logo {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0em;
+}
+.logoing{
+    height: 70px;
+    width: 100px;
+    border-radius: 100%;
+}
+.forml {
+    padding: 0.5em;
+    display: flex;
+    margin-left: 15px;
+}
+h1 {
+    padding-left: 15px;
+    font-size: 2em;
+}
+.forminput{
+    padding: 15px;
+    border-radius: 8px;
+}
+.forminput1 {
+    padding: 8px;
+    border-radius: 8px;
+}
+.form12 {
+    padding-left: 6em;
+}
+.form123 {
+    padding-left: 11em;
+}
+.btn {
+    display: flex;
+    justify-content: flex-end;
+}
+button {
+    background-color: blue;
+    color: white;
+    padding: 10px 15px;
+    border: 0;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+.side2 {
+    background-image: url(../image/istockphoto-1348548209-612x612.jpg);
+    box-shadow: inset 0 0 0 2000px rgba(31, 32, 32, 0,589);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h3 {
+    color: rgba(1, 91, 6, 0.974);
+    font-size: 4em;
+}
